@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
   <meta name="preview-marker" content="AGI_GLASS_CINEMATIC_PREVIEW_20260917">
-  <title>AGI Glass · Xhama automjetesh në Shkodër (parapamje koncepti)</title>
-  <meta name="description" content="Parapamje koncepti për AGI Glass, Shkodër: zëvendësim dhe riparim xhamash, veshje, kalibrim ADAS, deflektorë, bombardim dhe auto-oficinë e lëvizshme.">
+  <title data-i18n="meta.title">AGI Glass · Xhama automjetesh në Shkodër (parapamje koncepti)</title>
+  <meta name="description" data-i18n-content="meta.desc" content="Parapamje koncepti për AGI Glass, Shkodër: zëvendësim dhe riparim xhamash, veshje, kalibrim ADAS, deflektorë, bombardim dhe auto-oficinë e lëvizshme.">
   <meta name="theme-color" content="#0b0c0e">
   <link rel="canonical" href="https://niyyahdrive.github.io/agiglass-preview/">
   <meta property="og:url" content="https://niyyahdrive.github.io/agiglass-preview/">
@@ -17,36 +17,54 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip" href="#main">Kalo te përmbajtja</a>
+  <a class="skip" href="#main" data-i18n="a11y.skip">Kalo te përmbajtja</a>
 
   <div class="preview-banner" role="note">
     <span class="preview-banner__dot" aria-hidden="true"></span>
-    <p><strong>Parapamje koncepti</strong> · nuk është faqja zyrtare e AGI Glass <span class="preview-banner__nl" lang="nl">· Conceptpreview, niet de live-site</span></p>
+    <p data-i18n-html="banner.text"><strong>Parapamje koncepti</strong> · nuk është faqja zyrtare e AGI Glass</p>
   </div>
 
   <header class="site-header" data-header>
     <div class="site-header__inner">
-      <a class="brand" href="#top" aria-label="AGI Glass, kthehu në fillim">
+      <a class="brand" href="#top" data-i18n-aria="a11y.brand" aria-label="AGI Glass, kthehu në fillim">
         <img src="assets/brand/agi-glass-logo-light.png" width="123" height="106" alt="AGI Glass logo">
-        <span class="brand__text">AGI Glass<small>Xhama auto · Shkodër</small></span>
+        <span class="brand__text">AGI Glass<small data-i18n="brand.tag">Xhama auto · Shkodër</small></span>
       </a>
-      <nav class="nav" id="site-nav" aria-label="Navigimi kryesor" data-nav>
+
+      <nav class="nav" id="site-nav" data-i18n-aria="a11y.nav" aria-label="Navigimi kryesor" data-nav>
         <ul>
-          <li><a href="#sherbimet">Shërbimet</a></li>
-          <li><a href="#pse">Pse AGI Glass</a></li>
-          <li><a href="#punishtja">Punishtja</a></li>
-          <li><a href="#procesi">Procesi</a></li>
-          <li><a href="#shumice">Shumicë</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="#sherbimet" data-i18n="nav.services">Shërbimet</a></li>
+          <li><a href="#pse" data-i18n="nav.why">Pse AGI Glass</a></li>
+          <li><a href="#punishtja" data-i18n="nav.workshop">Punishtja</a></li>
+          <li><a href="#procesi" data-i18n="nav.process">Procesi</a></li>
+          <li><a href="#shumice" data-i18n="nav.wholesale">Shumicë</a></li>
+          <li class="nav__mobile-only"><a href="#oferta" data-i18n="nav.quote">Ofertë</a></li>
+          <li><a href="#kontakt" data-i18n="nav.contact">Kontakt</a></li>
         </ul>
-        <a class="btn btn--primary nav__call" href="tel:+355672272212">Telefono 067 227 2212</a>
+        <div class="nav__foot">
+          <div class="lang lang--panel" role="group" data-i18n-aria="a11y.lang" aria-label="Zgjidh gjuhën" data-lang-switch>
+            <button type="button" data-lang="sq" aria-pressed="true"><span aria-hidden="true">SQ</span><span class="sr-only">Shqip</span></button>
+            <button type="button" data-lang="en" aria-pressed="false"><span aria-hidden="true">EN</span><span class="sr-only">English</span></button>
+          </div>
+          <a class="nav__phone" href="tel:+355672272212">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8Z"/></svg>
+            067 227 2212
+          </a>
+          <a class="btn btn--primary nav__quote" href="#oferta" data-i18n="cta.quote">Kërko ofertë</a>
+        </div>
       </nav>
-      <a class="header-call" href="tel:+355672272212" aria-label="Telefono AGI Glass: +355 67 227 2212">
+
+      <div class="lang" role="group" data-i18n-aria="a11y.lang" aria-label="Zgjidh gjuhën" data-lang-switch>
+        <button type="button" data-lang="sq" aria-pressed="true"><span aria-hidden="true">SQ</span><span class="sr-only">Shqip</span></button>
+        <button type="button" data-lang="en" aria-pressed="false"><span aria-hidden="true">EN</span><span class="sr-only">English</span></button>
+      </div>
+
+      <a class="header-call" href="tel:+355672272212" aria-label="+355 67 227 2212">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8Z"/></svg>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
         <span class="menu-toggle__bars" aria-hidden="true"></span>
-        <span class="menu-toggle__label">Menu</span>
+        <span class="menu-toggle__label" data-i18n="a11y.menu">Menu</span>
       </button>
     </div>
   </header>
@@ -58,7 +76,7 @@
         <picture>
           <source media="(max-width: 767px)" srcset="assets/img/agi-facade-arrival-720.webp" type="image/webp">
           <source srcset="assets/img/agi-facade-arrival-1280.webp" type="image/webp">
-          <img class="hero__poster" src="assets/img/agi-facade-arrival-1280.jpg" width="1280" height="720" alt="Fasada e AGI Glass në Shkodër me një automjet para hyrjes" fetchpriority="high">
+          <img class="hero__poster" src="assets/img/agi-facade-arrival-1280.jpg" width="1280" height="720" data-i18n-alt="alt.hero" alt="Fasada e AGI Glass në Shkodër me një automjet para hyrjes" fetchpriority="high">
         </picture>
         <video class="hero__video" muted playsinline loop preload="none" aria-hidden="true" tabindex="-1"
                data-hero-video data-src="assets/video/agi-hero-loop-960.mp4"></video>
@@ -67,31 +85,31 @@
       <div class="hero__glare" aria-hidden="true"></div>
 
       <div class="hero__content wrap">
-        <p class="eyebrow reveal">AGI Glass · Shkodër · që nga 2009</p>
-        <h1 class="hero__title reveal" id="hero-title">
+        <p class="eyebrow reveal" data-i18n="hero.eyebrow">AGI Glass · Shkodër · që nga 2009</p>
+        <h1 class="hero__title reveal" id="hero-title" data-i18n-html="hero.title">
           <span class="line">Xhami i makinës</span>
           <span class="line">në duar <em class="sheen">specialistësh.</em></span>
         </h1>
-        <p class="hero__lead reveal">Zëvendësim dhe riparim xhamash, veshje, kalibrim ADAS dhe deflektorë. Në punishten tonë në Rrugën Vehbi Balla ose me auto-oficinën e lëvizshme.</p>
+        <p class="hero__lead reveal" data-i18n="hero.lead">Zëvendësim dhe riparim xhamash, veshje, kalibrim ADAS dhe deflektorë. Në punishten tonë në Rrugën Vehbi Balla ose me auto-oficinën e lëvizshme.</p>
         <div class="hero__actions reveal">
-          <a class="btn btn--primary btn--lg" href="tel:+355672272212">
+          <a class="btn btn--primary btn--lg" href="#oferta" data-i18n="cta.quote">Kërko ofertë</a>
+          <a class="btn btn--ghost btn--lg" href="tel:+355672272212">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8Z"/></svg>
-            Telefono tani
+            <span data-i18n="cta.callNow">Telefono tani</span>
           </a>
-          <a class="btn btn--ghost btn--lg" href="#sherbimet">Shiko shërbimet</a>
         </div>
-        <p class="hero__hours reveal">E hënë – e shtunë · 08:00 – 16:00</p>
+        <p class="hero__hours reveal" data-i18n="hero.hours">E hënë – e shtunë · 08:00 – 16:00</p>
       </div>
-      <a class="hero__scroll" href="#fakte" aria-label="Lëviz poshtë"><span></span></a>
+      <a class="hero__scroll" href="#fakte" data-i18n-aria="a11y.scroll" aria-label="Lëviz poshtë"><span></span></a>
     </section>
 
     <!-- CREDIBILITY STRIP -->
-    <section class="facts" id="fakte" aria-label="Fakte kryesore">
+    <section class="facts" id="fakte" data-i18n-aria="a11y.facts" aria-label="Fakte kryesore">
       <ul class="facts__list wrap">
-        <li class="reveal"><span class="facts__k">2009</span><span class="facts__v">Që nga viti</span></li>
+        <li class="reveal"><span class="facts__k">2009</span><span class="facts__v" data-i18n="facts.since">Që nga viti</span></li>
         <li class="reveal"><span class="facts__k">Shkodër</span><span class="facts__v">Rruga Vehbi Balla</span></li>
-        <li class="reveal"><span class="facts__k">Lëvizshëm</span><span class="facts__v">Auto-oficinë tek ju</span></li>
-        <li class="reveal"><span class="facts__k">08–16</span><span class="facts__v">E hënë – e shtunë</span></li>
+        <li class="reveal"><span class="facts__k" data-i18n="facts.mobileK">Lëvizshëm</span><span class="facts__v" data-i18n="facts.mobileV">Auto-oficinë tek ju</span></li>
+        <li class="reveal"><span class="facts__k">08–16</span><span class="facts__v" data-i18n="facts.days">E hënë – e shtunë</span></li>
       </ul>
     </section>
 
@@ -99,22 +117,22 @@
     <section class="services" id="sherbimet" aria-labelledby="services-title">
       <div class="wrap">
         <header class="section-head reveal">
-          <p class="eyebrow">Shërbimet</p>
-          <h2 id="services-title">Çdo xham, <span class="muted">një punë e veçantë.</span></h2>
-          <p class="section-head__lead">Nga xhami i parë deri te deflektorët: shërbime për automjetin tuaj, në punishte ose aty ku ndodheni.</p>
+          <p class="eyebrow" data-i18n="nav.services">Shërbimet</p>
+          <h2 id="services-title" data-i18n-html="svc.title">Çdo xham, <span class="muted">një punë e veçantë.</span></h2>
+          <p class="section-head__lead" data-i18n="svc.lead">Nga xhami i parë deri te deflektorët: shërbime për automjetin tuaj, në punishte ose aty ku ndodheni.</p>
         </header>
 
         <article class="chapter reveal">
           <figure class="chapter__media">
             <picture>
               <source srcset="assets/img/agi-technician-window-720.webp 720w, assets/img/agi-technician-window-1280.webp 1280w" sizes="(min-width: 960px) 50vw, 100vw" type="image/webp">
-              <img src="assets/img/agi-technician-window-1280.jpg" width="1280" height="720" loading="lazy" decoding="async" alt="Teknik i AGI Glass duke punuar te dritarja anësore e një automjeti në punishte">
+              <img src="assets/img/agi-technician-window-1280.jpg" width="1280" height="720" loading="lazy" decoding="async" data-i18n-alt="alt.tech1" alt="Teknik i AGI Glass duke punuar te dritarja anësore e një automjeti në punishte">
             </picture>
           </figure>
           <div class="chapter__body">
             <span class="chapter__no">01</span>
-            <h3>Zëvendësim xhami</h3>
-            <p>Xhama të parë, anësorë dhe të pasëm, sipas kërkesës dhe opsioneve të automjetit tuaj: origjinalë ose alternativë.</p>
+            <h3 data-i18n="svc.1.t">Zëvendësim xhami</h3>
+            <p data-i18n="svc.1.d">Xhama të parë, anësorë dhe të pasëm, sipas kërkesës dhe opsioneve të automjetit tuaj: origjinalë ose alternativë.</p>
           </div>
         </article>
 
@@ -122,13 +140,13 @@
           <figure class="chapter__media">
             <picture>
               <source srcset="assets/img/agi-meter-on-glass-720.webp 720w, assets/img/agi-meter-on-glass-1280.webp 1280w" sizes="(min-width: 960px) 50vw, 100vw" type="image/webp">
-              <img src="assets/img/agi-meter-on-glass-1280.jpg" width="1280" height="720" loading="lazy" decoding="async" alt="Matës i tonalitetit të xhamit i vendosur në dritaren anësore të një makine">
+              <img src="assets/img/agi-meter-on-glass-1280.jpg" width="1280" height="720" loading="lazy" decoding="async" data-i18n-alt="alt.meter" alt="Matës i tonalitetit të xhamit i vendosur në dritaren anësore të një makine">
             </picture>
           </figure>
           <div class="chapter__body">
             <span class="chapter__no">02</span>
-            <h3>Veshje xhami</h3>
-            <p>Filma për xhamat që ndihmojnë të bllokohen rrezet UV dhe IR, ulin vezullimin dhe japin më shumë privatësi.</p>
+            <h3 data-i18n="svc.2.t">Veshje xhami</h3>
+            <p data-i18n="svc.2.d">Filma për xhamat që ndihmojnë të bllokohen rrezet UV dhe IR, ulin vezullimin dhe japin më shumë privatësi.</p>
           </div>
         </article>
 
@@ -136,13 +154,13 @@
           <figure class="chapter__media">
             <picture>
               <source srcset="assets/img/agi-tinted-side-glass-720.webp 720w, assets/img/agi-tinted-side-glass-1280.webp 1280w" sizes="(min-width: 960px) 50vw, 100vw" type="image/webp">
-              <img src="assets/img/agi-tinted-side-glass-1280.jpg" width="1280" height="720" loading="lazy" decoding="async" alt="Xhama anësorë të errët të një automjeti të zi në punishten e AGI Glass">
+              <img src="assets/img/agi-tinted-side-glass-1280.jpg" width="1280" height="720" loading="lazy" decoding="async" data-i18n-alt="alt.tinted" alt="Xhama anësorë të errët të një automjeti të zi në punishten e AGI Glass">
             </picture>
           </figure>
           <div class="chapter__body">
             <span class="chapter__no">03</span>
-            <h3>Bombardim xhami</h3>
-            <p>Errësim i xhamave me teknologjinë e njohur si bombardim.</p>
+            <h3 data-i18n="svc.3.t">Bombardim xhami</h3>
+            <p data-i18n="svc.3.d">Errësim i xhamave me teknologjinë e njohur si bombardim.</p>
           </div>
         </article>
 
@@ -150,26 +168,26 @@
           <article class="tile reveal">
             <svg class="tile__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 14c11-5 25-5 36 0l-4 22H10L6 14Z"/><path d="m22 20 3 5-4 3 3 4"/><circle cx="25" cy="25" r="1.5"/></svg>
             <span class="chapter__no">04</span>
-            <h3>Riparim xhami</h3>
-            <p>Dëmtimi i vogël riparohet më mirë sa më shpejt: pluhuri dhe uji e vështirësojnë rezultatin estetik.</p>
+            <h3 data-i18n="svc.4.t">Riparim xhami</h3>
+            <p data-i18n="svc.4.d">Dëmtimi i vogël riparohet më mirë sa më shpejt: pluhuri dhe uji e vështirësojnë rezultatin estetik.</p>
           </article>
           <article class="tile reveal">
             <svg class="tile__icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="12" width="32" height="22" rx="3"/><circle cx="24" cy="23" r="6"/><circle cx="24" cy="23" r="2"/><path d="M4 40h40M16 34l-3 6M32 34l3 6"/></svg>
             <span class="chapter__no">05</span>
-            <h3>Kalibrim ADAS</h3>
-            <p>Kur zëvendësohet xhami i parë, kamera e sistemeve të sigurisë duhet kalibruar. Këtë e bëjmë me kalibrimin ADAS.</p>
+            <h3 data-i18n="svc.5.t">Kalibrim ADAS</h3>
+            <p data-i18n="svc.5.d">Kur zëvendësohet xhami i parë, kamera e sistemeve të sigurisë duhet kalibruar. Këtë e bëjmë me kalibrimin ADAS.</p>
           </article>
           <article class="tile reveal">
             <svg class="tile__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 30c8-10 22-16 36-16"/><path d="M8 36c9-9 21-14 34-14"/><path d="M14 10h8M10 18h6"/></svg>
             <span class="chapter__no">06</span>
-            <h3>Deflektorë</h3>
-            <p>Mbrojtëse ere dhe shiu me montim në kanalin e xhamit, me shumicë dhe pakicë.</p>
+            <h3 data-i18n="svc.6.t">Deflektorë</h3>
+            <p data-i18n="svc.6.d">Mbrojtëse ere dhe shiu me montim në kanalin e xhamit, me shumicë dhe pakicë.</p>
           </article>
           <article class="tile reveal">
             <svg class="tile__icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 32V18h24v14M28 22h8l6 6v4H28"/><circle cx="13" cy="34" r="4"/><circle cx="35" cy="34" r="4"/><path d="M10 24h10"/></svg>
             <span class="chapter__no">07</span>
-            <h3>Auto-oficinë e lëvizshme</h3>
-            <p>Përveç punishtes, shumë kërkesa mund të kryhen aty ku ndodheni. Telefononi për të parë nëse vlen për rastin tuaj.</p>
+            <h3 data-i18n="svc.7.t">Auto-oficinë e lëvizshme</h3>
+            <p data-i18n="svc.7.d">Përveç punishtes, shumë kërkesa mund të kryhen aty ku ndodheni. Telefononi për të parë nëse vlen për rastin tuaj.</p>
           </article>
         </div>
       </div>
@@ -182,21 +200,21 @@
       </div>
       <div class="wrap why__inner">
         <header class="section-head reveal">
-          <p class="eyebrow">Pse AGI Glass</p>
-          <h2 id="why-title">Xhami është pjesë e sigurisë suaj.</h2>
+          <p class="eyebrow" data-i18n="nav.why">Pse AGI Glass</p>
+          <h2 id="why-title" data-i18n="why.title">Xhami është pjesë e sigurisë suaj.</h2>
         </header>
         <ol class="why__list">
           <li class="glass-card reveal">
-            <h3>Siguria</h3>
-            <p>Xhami i parë mbështet kamerat e sistemeve ndihmëse. Prandaj pas zëvendësimit ofrojmë edhe kalibrimin ADAS.</p>
+            <h3 data-i18n="why.1.t">Siguria</h3>
+            <p data-i18n="why.1.d">Xhami i parë mbështet kamerat e sistemeve ndihmëse. Prandaj pas zëvendësimit ofrojmë edhe kalibrimin ADAS.</p>
           </li>
           <li class="glass-card reveal">
-            <h3>Specializim</h3>
-            <p>Që nga 2009 punojmë me xhamat e automjeteve: zëvendësim, riparim, veshje, errësim dhe deflektorë.</p>
+            <h3 data-i18n="why.2.t">Specializim</h3>
+            <p data-i18n="why.2.d">Që nga 2009 punojmë me xhamat e automjeteve: zëvendësim, riparim, veshje, errësim dhe deflektorë.</p>
           </li>
           <li class="glass-card reveal">
-            <h3>Komoditet</h3>
-            <p>Punishte në Shkodër, auto-oficinë e lëvizshme dhe orar i qartë: e hënë – e shtunë, 08:00 – 16:00.</p>
+            <h3 data-i18n="why.3.t">Komoditet</h3>
+            <p data-i18n="why.3.d">Punishte në Shkodër, auto-oficinë e lëvizshme dhe orar i qartë: e hënë – e shtunë, 08:00 – 16:00.</p>
           </li>
         </ol>
       </div>
@@ -206,35 +224,35 @@
     <section class="media" id="punishtja" aria-labelledby="media-title">
       <div class="wrap">
         <header class="section-head reveal">
-          <p class="eyebrow">Punishtja</p>
-          <h2 id="media-title">Brenda AGI Glass.</h2>
-          <p class="section-head__lead">Pamje nga video e vetë AGI Glass: fasada, punishtja dhe puna me xhamat.</p>
+          <p class="eyebrow" data-i18n="nav.workshop">Punishtja</p>
+          <h2 id="media-title" data-i18n="media.title">Brenda AGI Glass.</h2>
+          <p class="section-head__lead" data-i18n="media.lead">Pamje nga video e vetë AGI Glass: fasada, punishtja dhe puna me xhamat.</p>
         </header>
 
         <div class="player reveal" data-player>
           <video class="player__video" preload="none" playsinline controls
                  poster="assets/img/agi-facade-sign-1280.jpg" width="1280" height="720"
-                 aria-label="Video e punishtes së AGI Glass">
+                 data-i18n-aria="a11y.video" aria-label="Video e punishtes së AGI Glass">
             <source src="assets/video/agi-glass-workshop-540p.mp4" type="video/mp4">
           </video>
           <button class="player__cover" type="button" data-play>
             <span class="player__btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-            <span class="player__label">Shiko videon <small>0:42 · 3,3 MB</small></span>
+            <span class="player__label"><span data-i18n="media.play">Shiko videon</span> <small data-i18n="media.size">0:42 · 3,3 MB</small></span>
           </button>
         </div>
 
-        <ul class="filmstrip" aria-label="Pamje nga video">
+        <ul class="filmstrip" data-i18n-aria="a11y.filmstrip" aria-label="Pamje nga video">
           <li class="reveal">
-            <img src="assets/img/agi-workshop-hall-720.webp" width="720" height="405" loading="lazy" decoding="async" alt="Salla e punishtes me rafte xhamash dhe një automjet në qendër">
+            <img src="assets/img/agi-workshop-hall-720.webp" width="720" height="405" loading="lazy" decoding="async" data-i18n-alt="alt.hall" alt="Salla e punishtes me rafte xhamash dhe një automjet në qendër">
           </li>
           <li class="reveal">
-            <img src="assets/img/agi-technician-door-720.webp" width="720" height="405" loading="lazy" decoding="async" alt="Teknik duke punuar te dera e hapur e një automjeti të zi">
+            <img src="assets/img/agi-technician-door-720.webp" width="720" height="405" loading="lazy" decoding="async" data-i18n-alt="alt.door" alt="Teknik duke punuar te dera e hapur e një automjeti të zi">
           </li>
           <li class="reveal">
-            <img src="assets/img/agi-tint-meter-82-720.webp" width="720" height="405" loading="lazy" decoding="async" alt="Matës tonaliteti xhami që tregon vlerën 82">
+            <img src="assets/img/agi-tint-meter-82-720.webp" width="720" height="405" loading="lazy" decoding="async" data-i18n-alt="alt.tintmeter" alt="Matës tonaliteti xhami që tregon vlerën 82">
           </li>
           <li class="reveal">
-            <img src="assets/img/agi-plate-detail-720.webp" width="720" height="405" loading="lazy" decoding="async" alt="Targë demonstrative me mbishkrimin AGI GLASS në pjesën e përparme të një automjeti">
+            <img src="assets/img/agi-plate-detail-720.webp" width="720" height="405" loading="lazy" decoding="async" data-i18n-alt="alt.plate" alt="Targë demonstrative me mbishkrimin AGI GLASS në pjesën e përparme të një automjeti">
           </li>
         </ul>
       </div>
@@ -244,15 +262,15 @@
     <section class="process" id="procesi" aria-labelledby="process-title">
       <div class="wrap">
         <header class="section-head reveal">
-          <p class="eyebrow">Procesi</p>
-          <h2 id="process-title">Si zakonisht ecën puna.</h2>
-          <p class="section-head__lead">Një udhëzues i përgjithshëm. Hapat mund të ndryshojnë sipas automjetit dhe shërbimit.</p>
+          <p class="eyebrow" data-i18n="nav.process">Procesi</p>
+          <h2 id="process-title" data-i18n="proc.title">Si zakonisht ecën puna.</h2>
+          <p class="section-head__lead" data-i18n="proc.lead">Një udhëzues i përgjithshëm. Hapat mund të ndryshojnë sipas automjetit dhe shërbimit.</p>
         </header>
         <ol class="steps">
-          <li class="step reveal"><span class="step__n">1</span><h3>Kontakt</h3><p>Na telefononi ose ejani në punishte dhe tregoni automjetin dhe problemin.</p></li>
-          <li class="step reveal"><span class="step__n">2</span><h3>Kontroll &amp; këshillim</h3><p>Shohim dëmtimin dhe ju shpjegojmë cilat opsione ka.</p></li>
-          <li class="step reveal"><span class="step__n">3</span><h3>Shërbimi</h3><p>Puna kryhet në punishte ose, kur është e mundur, me auto-oficinën e lëvizshme.</p></li>
-          <li class="step reveal"><span class="step__n">4</span><h3>Dorëzimi</h3><p>Automjeti ju dorëzohet dhe ju tregojmë çfarë u bë.</p></li>
+          <li class="step reveal"><span class="step__n">1</span><h3 data-i18n="proc.1.t">Kontakt</h3><p data-i18n="proc.1.d">Na telefononi ose ejani në punishte dhe tregoni automjetin dhe problemin.</p></li>
+          <li class="step reveal"><span class="step__n">2</span><h3 data-i18n="proc.2.t">Kontroll &amp; këshillim</h3><p data-i18n="proc.2.d">Shohim dëmtimin dhe ju shpjegojmë cilat opsione ka.</p></li>
+          <li class="step reveal"><span class="step__n">3</span><h3 data-i18n="proc.3.t">Shërbimi</h3><p data-i18n="proc.3.d">Puna kryhet në punishte ose, kur është e mundur, me auto-oficinën e lëvizshme.</p></li>
+          <li class="step reveal"><span class="step__n">4</span><h3 data-i18n="proc.4.t">Dorëzimi</h3><p data-i18n="proc.4.d">Automjeti ju dorëzohet dhe ju tregojmë çfarë u bë.</p></li>
         </ol>
       </div>
     </section>
@@ -261,13 +279,316 @@
     <section class="wholesale" id="shumice" aria-labelledby="wholesale-title">
       <div class="wrap wholesale__inner reveal">
         <div>
-          <p class="eyebrow">Shumicë &amp; pakicë</p>
-          <h2 id="wholesale-title">Xhama dhe deflektorë, me shumicë ose pakicë.</h2>
-          <p>AGI Glass shet xhama automjetesh dhe deflektorë si për klientë me shumicë, ashtu edhe me pakicë. Telefononi për disponueshmërinë dhe modelin që ju nevojitet.</p>
+          <p class="eyebrow" data-i18n="ws.eyebrow">Shumicë &amp; pakicë</p>
+          <h2 id="wholesale-title" data-i18n="ws.title">Xhama dhe deflektorë, me shumicë ose pakicë.</h2>
+          <p data-i18n="ws.body">AGI Glass shet xhama automjetesh dhe deflektorë si për klientë me shumicë, ashtu edhe me pakicë. Telefononi për disponueshmërinë dhe modelin që ju nevojitet.</p>
         </div>
         <div class="wholesale__cta">
-          <a class="btn btn--primary btn--lg" href="tel:+355672272212">Pyet për shumicë</a>
+          <a class="btn btn--primary btn--lg" href="tel:+355672272212" data-i18n="ws.cta">Pyet për shumicë</a>
           <a class="btn btn--ghost btn--lg" href="mailto:info@agiglass.al?subject=Shumic%C3%AB%20%2F%20pakic%C3%AB">info@agiglass.al</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE WIZARD -->
+    <section class="quote" id="oferta" aria-labelledby="quote-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-i18n="nav.quote">Ofertë</p>
+          <h2 id="quote-title" data-i18n="q.title">Kërkoni një ofertë në tre hapa.</h2>
+          <p class="section-head__lead" data-i18n="q.lead">Plotësoni automjetin, shërbimin dhe kontaktin. Në këtë parapamje formulari funksionon plotësisht, por nuk dërgon asgjë.</p>
+        </header>
+
+        <div class="quote__grid">
+          <form class="wizard reveal" id="quoteForm" novalidate onsubmit="return false" data-wizard
+                data-i18n-aria="q.formLabel" aria-label="Kërkesë për ofertë (demonstrim)">
+            <p class="wizard__badge" data-i18n="q.badge">Demonstrim · asnjë e dhënë nuk dërgohet</p>
+
+            <ol class="stepper" data-stepper>
+              <li>
+                <button class="step-pill is-active" type="button" data-pill="1" aria-current="step">
+                  <span class="step-pill__n" aria-hidden="true">1</span>
+                  <span class="step-pill__l"><small data-i18n="q.stepWord">Hapi 1</small><span data-i18n="q.s1.name">Automjeti &amp; shërbimi</span></span>
+                </button>
+              </li>
+              <li>
+                <button class="step-pill" type="button" data-pill="2">
+                  <span class="step-pill__n" aria-hidden="true">2</span>
+                  <span class="step-pill__l"><small data-i18n="q.stepWord2">Hapi 2</small><span data-i18n="q.s2.name">Vendi &amp; koha</span></span>
+                </button>
+              </li>
+              <li>
+                <button class="step-pill" type="button" data-pill="3">
+                  <span class="step-pill__n" aria-hidden="true">3</span>
+                  <span class="step-pill__l"><small data-i18n="q.stepWord3">Hapi 3</small><span data-i18n="q.s3.name">Kontakti &amp; fotot</span></span>
+                </button>
+              </li>
+            </ol>
+            <div class="wprogress" data-progress-wrap>
+              <div class="wprogress__bar" data-progress></div>
+              <p class="sr-only" role="status" data-progress-text>Hapi 1 nga 3</p>
+            </div>
+
+            <noscript>
+              <p class="wnote" data-i18n="q.noscript">JavaScript është i çaktivizuar, prandaj të tre hapat shfaqen njëherësh. Formulari nuk dërgon asgjë; telefononi ose shkruani email për një kërkesë të vërtetë.</p>
+            </noscript>
+
+            <!-- STEP 1 -->
+            <div class="wstep is-active" data-step="1">
+              <div class="wstep__head">
+                <h3 data-i18n="q.s1.title">Për cilin automjet?</h3>
+                <p data-i18n="q.s1.lead">Zgjidhni llojin e klientit dhe shërbimet që ju interesojnë.</p>
+              </div>
+
+              <div class="field-group">
+                <p class="field-label" id="lbl-customer" data-i18n="q.f.customer">Lloji i klientit *</p>
+                <div class="opts opts--2" role="radiogroup" aria-labelledby="lbl-customer" data-group="customer">
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="private">
+                    <span class="opt__t" data-i18n="q.cust.private.t">Privat</span>
+                    <span class="opt__s" data-i18n="q.cust.private.s">Automjet personal</span>
+                  </button>
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="business">
+                    <span class="opt__t" data-i18n="q.cust.business.t">Biznes</span>
+                    <span class="opt__s" data-i18n="q.cust.business.s">Kompani ose flotë</span>
+                  </button>
+                </div>
+                <p class="err" data-err="customer" hidden></p>
+              </div>
+
+              <div class="field-row">
+                <div class="field">
+                  <label for="q-make" data-i18n="q.f.make">Marka dhe modeli *</label>
+                  <input id="q-make" name="make" type="text" autocomplete="off" data-i18n-ph="q.ph.make" placeholder="p.sh. Volkswagen Golf 7" data-required>
+                  <p class="err" data-err="make" hidden></p>
+                </div>
+                <div class="field">
+                  <label for="q-year" data-i18n="q.f.year">Viti (opsionale)</label>
+                  <input id="q-year" name="year" type="text" inputmode="numeric" autocomplete="off" data-i18n-ph="q.ph.year" placeholder="p.sh. 2016">
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="q-plate" data-i18n="q.f.plate">Targa (opsionale)</label>
+                <input id="q-plate" name="plate" type="text" autocomplete="off" data-i18n-ph="q.ph.plate" placeholder="p.sh. AA 123 BB">
+              </div>
+
+              <div class="field-group">
+                <p class="field-label" id="lbl-services"><span data-i18n="q.f.services">Çfarë ju duhet? *</span> <small data-i18n="q.f.servicesHint">(zgjidhni një ose disa)</small></p>
+                <div class="opts opts--svc" role="group" aria-labelledby="lbl-services" data-group="services" data-multi>
+                  <button class="opt" type="button" aria-pressed="false" data-value="replacement">
+                    <svg class="opt__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c6-3 12-3 18 0l-2 11H5L3 8Z"/><path d="M12 8v11"/></svg>
+                    <span class="opt__t" data-i18n="q.svc.replacement.t">Zëvendësim xhami</span>
+                  </button>
+                  <button class="opt" type="button" aria-pressed="false" data-value="repair">
+                    <svg class="opt__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c6-3 12-3 18 0l-2 11H5L3 8Z"/><path d="m11 10 2 3-3 2 2 3"/></svg>
+                    <span class="opt__t" data-i18n="q.svc.repair.t">Riparim xhami</span>
+                  </button>
+                  <button class="opt" type="button" aria-pressed="false" data-value="film">
+                    <svg class="opt__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 12h18M8 4v16"/></svg>
+                    <span class="opt__t" data-i18n="q.svc.film.t">Veshje xhami</span>
+                  </button>
+                  <button class="opt" type="button" aria-pressed="false" data-value="adas">
+                    <svg class="opt__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="3.2"/></svg>
+                    <span class="opt__t" data-i18n="q.svc.adas.t">Kalibrim ADAS</span>
+                  </button>
+                  <button class="opt" type="button" aria-pressed="false" data-value="deflectors">
+                    <svg class="opt__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 15c5-6 13-10 20-10"/><path d="M4 19c5-5 12-9 18-9"/></svg>
+                    <span class="opt__t" data-i18n="q.svc.deflectors.t">Deflektorë</span>
+                  </button>
+                  <button class="opt" type="button" aria-pressed="false" data-value="darkening">
+                    <svg class="opt__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16Z" fill="currentColor" stroke="none"/></svg>
+                    <span class="opt__t" data-i18n="q.svc.darkening.t">Bombardim xhami</span>
+                  </button>
+                  <button class="opt" type="button" aria-pressed="false" data-value="mobile">
+                    <svg class="opt__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 16V9h12v7M14 11h4l3 3v2h-7"/><circle cx="6.5" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg>
+                    <span class="opt__t" data-i18n="q.svc.mobile.t">Auto-oficinë e lëvizshme</span>
+                  </button>
+                </div>
+                <p class="err" data-err="services" hidden></p>
+              </div>
+
+              <div class="field">
+                <label for="q-problem" data-i18n="q.f.problem">Përshkrimi i problemit (opsionale)</label>
+                <textarea id="q-problem" name="problem" rows="3" data-i18n-ph="q.ph.problem" placeholder="p.sh. çarje 5 cm në xhamin e parë, nga ana e shoferit"></textarea>
+              </div>
+
+              <div class="step-nav step-nav--end">
+                <button class="btn btn--primary" type="button" data-next="2"><span data-i18n="q.next">Vazhdo</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="wstep" data-step="2">
+              <div class="wstep__head">
+                <h3 data-i18n="q.s2.title">Ku dhe kur?</h3>
+                <p data-i18n="q.s2.lead">Kjo ndihmon të kuptohet nëse puna bëhet në punishte apo tek ju.</p>
+              </div>
+
+              <div class="field-group">
+                <p class="field-label" id="lbl-place" data-i18n="q.f.place">Ku dëshironi shërbimin? *</p>
+                <div class="opts opts--3" role="radiogroup" aria-labelledby="lbl-place" data-group="place">
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="workshop">
+                    <span class="opt__t" data-i18n="q.place.workshop.t">Në punishten AGI</span>
+                    <span class="opt__s" data-i18n="q.place.workshop.s">Rruga Vehbi Balla, Shkodër</span>
+                  </button>
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="mobile">
+                    <span class="opt__t" data-i18n="q.place.mobile.t">Shërbim i lëvizshëm</span>
+                    <span class="opt__s" data-i18n="q.place.mobile.s">Tek ju, nëse është e mundur</span>
+                  </button>
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="advise">
+                    <span class="opt__t" data-i18n="q.place.advise.t">Më këshilloni</span>
+                    <span class="opt__s" data-i18n="q.place.advise.s">Nuk jam i sigurt</span>
+                  </button>
+                </div>
+                <p class="err" data-err="place" hidden></p>
+              </div>
+
+              <div class="field">
+                <label for="q-city" data-i18n="q.f.city">Qyteti ose vendndodhja *</label>
+                <input id="q-city" name="city" type="text" autocomplete="address-level2" data-i18n-ph="q.ph.city" placeholder="p.sh. Shkodër" data-required>
+                <p class="hint" data-i18n="q.hint.mobile">Mundësia e shërbimit të lëvizshëm konfirmohet gjithmonë me telefon.</p>
+                <p class="err" data-err="city" hidden></p>
+              </div>
+
+              <div class="field-group">
+                <p class="field-label" id="lbl-timing" data-i18n="q.f.timing">Sa urgjente është? *</p>
+                <div class="opts opts--2" role="radiogroup" aria-labelledby="lbl-timing" data-group="timing">
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="urgent">
+                    <span class="opt__t" data-i18n="q.time.urgent.t">Urgjente</span>
+                  </button>
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="twoweeks">
+                    <span class="opt__t" data-i18n="q.time.twoweeks.t">Brenda dy javëve</span>
+                  </button>
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="later">
+                    <span class="opt__t" data-i18n="q.time.later.t">Më vonë</span>
+                  </button>
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="exploring">
+                    <span class="opt__t" data-i18n="q.time.exploring.t">Vetëm po informohem</span>
+                  </button>
+                </div>
+                <p class="err" data-err="timing" hidden></p>
+              </div>
+
+              <div class="step-nav">
+                <button class="btn btn--back" type="button" data-prev="1">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  <span data-i18n="q.back">Kthehu</span>
+                </button>
+                <button class="btn btn--primary" type="button" data-next="3"><span data-i18n="q.next">Vazhdo</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="wstep" data-step="3">
+              <div class="wstep__head">
+                <h3 data-i18n="q.s3.title">Si t'ju kontaktojmë?</h3>
+                <p data-i18n="q.s3.lead">Vetëm sa duhet për t'ju kthyer përgjigje.</p>
+              </div>
+
+              <div class="field-row">
+                <div class="field">
+                  <label for="q-name" data-i18n="q.f.name">Emri *</label>
+                  <input id="q-name" name="name" type="text" autocomplete="name" data-required>
+                  <p class="err" data-err="name" hidden></p>
+                </div>
+                <div class="field">
+                  <label for="q-phone" data-i18n="q.f.phone">Telefoni *</label>
+                  <input id="q-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" data-i18n-ph="q.ph.phone" placeholder="p.sh. 069 123 4567" data-required>
+                  <p class="err" data-err="phone" hidden></p>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="q-email" data-i18n="q.f.email">Email (opsionale)</label>
+                <input id="q-email" name="email" type="email" autocomplete="email" data-i18n-ph="q.ph.email" placeholder="p.sh. emri@shembull.al">
+                <p class="err" data-err="email" hidden></p>
+              </div>
+
+              <div class="field-group">
+                <p class="field-label" id="lbl-prefer" data-i18n="q.f.prefer">Si preferoni kontaktin? *</p>
+                <div class="opts opts--2" role="radiogroup" aria-labelledby="lbl-prefer" data-group="prefer">
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="phone">
+                    <span class="opt__t" data-i18n="q.prefer.phone.t">Telefon</span>
+                  </button>
+                  <button class="opt" type="button" role="radio" aria-checked="false" data-value="email">
+                    <span class="opt__t" data-i18n="q.prefer.email.t">Email</span>
+                  </button>
+                </div>
+                <p class="err" data-err="prefer" hidden></p>
+              </div>
+
+              <div class="field-group">
+                <p class="field-label" data-i18n="q.f.files">Foto ose PDF (opsionale)</p>
+                <div class="drop" data-drop>
+                  <input id="q-files" type="file" multiple accept="image/*,.pdf,application/pdf" data-i18n-aria="q.f.files" aria-label="Foto ose PDF (opsionale)" data-file-input>
+                  <svg class="drop__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0 4 4m-4-4L8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 16v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                  <span class="drop__t" data-i18n="q.drop.t">Zgjidh skedarë ose tërhiqi këtu</span>
+                  <span class="drop__s" data-i18n="q.drop.s">Maksimumi 6 skedarë · deri 5 MB secili · JPG, PNG, WEBP, HEIC ose PDF</span>
+                </div>
+                <ul class="files" data-file-list data-i18n-aria="q.filesList" aria-label="Skedarët e zgjedhur"></ul>
+                <p class="err" data-err="files" hidden></p>
+              </div>
+
+              <p class="wnote" data-i18n="q.privacy">Kjo faqe është parapamje publike koncepti. Teksti dhe skedarët mbeten vetëm në pajisjen tuaj: nuk ngarkohen, nuk ruhen dhe nuk dërgohen askund. Mbyllja e faqes i fshin ato.</p>
+
+              <div class="step-nav">
+                <button class="btn btn--back" type="button" data-prev="2">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  <span data-i18n="q.back">Kthehu</span>
+                </button>
+                <button class="btn btn--primary" type="submit" data-submit data-i18n="q.submit">Përfundo (demonstrim, nuk dërgohet)</button>
+              </div>
+            </div>
+
+            <!-- NON-SEND RESULT -->
+            <div class="wdone" data-done hidden>
+              <span class="wdone__mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <h3 data-i18n="q.done.title">Demonstrimi funksionoi — por asgjë nuk u dërgua.</h3>
+              <p data-i18n="q.done.lead">Kjo është një parapamje publike pa server formulari. Të dhënat mbetën në shfletuesin tuaj. Për një kërkesë të vërtetë, telefononi ose dërgoni email te AGI Glass.</p>
+
+              <div class="wdone__sum">
+                <p class="wdone__sumh" data-i18n="q.done.sumTitle">Përmbledhja juaj (vetëm lokale)</p>
+                <dl data-summary></dl>
+              </div>
+
+              <div class="wdone__actions">
+                <a class="btn btn--primary btn--lg" href="tel:+355672272212">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8Z"/></svg>
+                  +355 67 227 2212
+                </a>
+                <a class="btn btn--ghost btn--lg" href="mailto:info@agiglass.al" data-mail>info@agiglass.al</a>
+                <button class="btn btn--ghost btn--lg" type="button" data-copy data-i18n="q.done.copy">Kopjo përmbledhjen</button>
+                <button class="btn btn--back" type="button" data-restart data-i18n="q.done.restart">Fillo nga e para</button>
+              </div>
+              <p class="wdone__toast" role="status" data-toast></p>
+            </div>
+          </form>
+
+          <aside class="quote__side reveal" data-i18n-aria="q.sideLabel" aria-label="Kontakt i drejtpërdrejtë">
+            <div class="side-card side-card--call">
+              <h3 data-i18n="q.side.call.t">Më shpejt me telefon</h3>
+              <a class="side-card__num" href="tel:+355672272212">+355 67 227 2212</a>
+              <p data-i18n="q.side.call.d">E hënë – e shtunë, 08:00 – 16:00</p>
+            </div>
+            <div class="side-card">
+              <h3 data-i18n="q.side.visit.t">Ejani te punishtja</h3>
+              <p>Rruga Vehbi Balla, Shkodër</p>
+              <a class="side-card__link" href="https://www.google.com/maps/dir//agiglass/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x134e011c2f4dd5e1:0x5e73cb6fd050b8c8" target="_blank" rel="noopener noreferrer">
+                <span data-i18n="cta.directions">Merr udhëzimet</span>
+                <span class="sr-only" data-i18n="a11y.newTab">(Google Maps, hapet në dritare të re)</span>
+              </a>
+            </div>
+            <div class="side-card side-card--note">
+              <h3 data-i18n="q.side.note.t">Çfarë është kjo faqe</h3>
+              <p data-i18n="q.side.note.d">Një parapamje koncepti e ndërtuar mbi informacionin publik të AGI Glass. Nuk është faqja zyrtare dhe nuk pranon kërkesa reale.</p>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
@@ -276,71 +597,64 @@
     <section class="contact" id="kontakt" aria-labelledby="contact-title">
       <div class="wrap contact__grid">
         <div class="contact__info reveal">
-          <p class="eyebrow">Kontakt</p>
-          <h2 id="contact-title">Na gjeni në Shkodër.</h2>
+          <p class="eyebrow" data-i18n="nav.contact">Kontakt</p>
+          <h2 id="contact-title" data-i18n="contact.title">Na gjeni në Shkodër.</h2>
           <dl class="contact__list">
-            <div><dt>Telefon</dt><dd><a href="tel:+355672272212">+355 67 227 2212</a></dd></div>
-            <div><dt>Adresa</dt><dd>Rruga Vehbi Balla, Shkodër</dd></div>
-            <div><dt>Orari</dt><dd>E hënë – e shtunë<br>08:00 – 16:00</dd></div>
-            <div><dt>Email</dt><dd><a href="mailto:info@agiglass.al">info@agiglass.al</a></dd></div>
+            <div><dt data-i18n="contact.phone">Telefon</dt><dd><a href="tel:+355672272212">+355 67 227 2212</a></dd></div>
+            <div><dt data-i18n="contact.address">Adresa</dt><dd>Rruga Vehbi Balla, Shkodër</dd></div>
+            <div><dt data-i18n="contact.hours">Orari</dt><dd data-i18n-html="contact.hoursV">E hënë – e shtunë<br>08:00 – 16:00</dd></div>
+            <div><dt data-i18n="contact.email">Email</dt><dd><a href="mailto:info@agiglass.al">info@agiglass.al</a></dd></div>
           </dl>
           <div class="contact__actions">
-            <a class="btn btn--primary btn--lg" href="tel:+355672272212">Telefono</a>
-            <a class="btn btn--ghost btn--lg" href="https://www.google.com/maps/dir//agiglass/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x134e011c2f4dd5e1:0x5e73cb6fd050b8c8" target="_blank" rel="noopener noreferrer">Merr udhëzimet <span class="sr-only">(Google Maps, hapet në dritare të re)</span></a>
+            <a class="btn btn--primary btn--lg" href="tel:+355672272212" data-i18n="cta.call">Telefono</a>
+            <a class="btn btn--ghost btn--lg" href="https://www.google.com/maps/dir//agiglass/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x134e011c2f4dd5e1:0x5e73cb6fd050b8c8" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="cta.directions">Merr udhëzimet</span>
+              <span class="sr-only" data-i18n="a11y.newTab">(Google Maps, hapet në dritare të re)</span>
+            </a>
           </div>
         </div>
 
-        <form class="concept-form reveal" aria-describedby="form-note" onsubmit="return false">
-          <p class="concept-form__badge" id="form-note">Koncept · ky formular nuk dërgon mesazhe në këtë parapamje</p>
-          <fieldset disabled>
-            <legend>Kërkoni ofertë</legend>
-            <label>Emri<input type="text" name="name" autocomplete="name"></label>
-            <label>Telefoni<input type="tel" name="phone" autocomplete="tel"></label>
-            <label>Marka / modeli<input type="text" name="car"></label>
-            <label>Shërbimi
-              <select name="service">
-                <option>Zëvendësim xhami</option>
-                <option>Riparim xhami</option>
-                <option>Veshje xhami</option>
-                <option>Kalibrim ADAS</option>
-                <option>Deflektorë</option>
-                <option>Bombardim xhami</option>
-                <option>Auto-oficinë e lëvizshme</option>
-              </select>
-            </label>
-            <button class="btn btn--primary" type="submit">Dërgo (koncept)</button>
-          </fieldset>
-        </form>
+        <div class="contact__card reveal">
+          <p class="eyebrow" data-i18n="nav.quote">Ofertë</p>
+          <h3 data-i18n="contact.card.t">Preferoni të shkruani?</h3>
+          <p data-i18n="contact.card.d">Plotësoni kërkesën në tre hapa. Në këtë parapamje ajo nuk dërgohet, por ju tregon saktësisht si do të funksiononte.</p>
+          <a class="btn btn--primary btn--lg" href="#oferta" data-i18n="cta.quote">Kërko ofertë</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap site-footer__inner">
-      <a class="brand" href="#top" aria-label="AGI Glass, kthehu në fillim">
+      <a class="brand" href="#top" data-i18n-aria="a11y.brand" aria-label="AGI Glass, kthehu në fillim">
         <img src="assets/brand/agi-glass-logo-light.png" width="123" height="106" alt="AGI Glass logo" loading="lazy">
-        <span class="brand__text">AGI Glass<small>Xhama auto · Shkodër · që nga 2009</small></span>
+        <span class="brand__text">AGI Glass<small data-i18n="brand.tagLong">Xhama auto · Shkodër · që nga 2009</small></span>
       </a>
       <address>
         Rruga Vehbi Balla, Shkodër<br>
         <a href="tel:+355672272212">+355 67 227 2212</a> · <a href="mailto:info@agiglass.al">info@agiglass.al</a><br>
-        E hënë – e shtunë, 08:00 – 16:00
+        <span data-i18n="contact.hoursInline">E hënë – e shtunë, 08:00 – 16:00</span>
       </address>
-      <p class="site-footer__note">© <span data-year>2026</span> AGI Glass · Parapamje koncepti, jo faqja zyrtare. Lidhjet e telefonit dhe hartës çojnë te biznesi real.</p>
+      <p class="site-footer__note">© <span data-year>2026</span> <span data-i18n="footer.note">AGI Glass · Parapamje koncepti, jo faqja zyrtare. Lidhjet e telefonit dhe hartës çojnë te biznesi real.</span></p>
     </div>
   </footer>
 
-  <nav class="action-bar" aria-label="Veprime të shpejta">
+  <nav class="action-bar" data-i18n-aria="a11y.quickActions" aria-label="Veprime të shpejta">
     <a href="tel:+355672272212" class="action-bar__call">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8Z"/></svg>
-      Telefono
+      <span data-i18n="cta.call">Telefono</span>
+    </a>
+    <a href="#oferta">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12h6M9 16h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span data-i18n="cta.quoteShort">Ofertë</span>
     </a>
     <a href="https://www.google.com/maps/dir//agiglass/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x134e011c2f4dd5e1:0x5e73cb6fd050b8c8" target="_blank" rel="noopener noreferrer">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
-      Udhëzime
+      <span data-i18n="cta.route">Udhëzime</span>
     </a>
   </nav>
 
+  <script src="i18n.js" defer></script>
   <script src="script.js" defer></script>
 </body>
 </html>
